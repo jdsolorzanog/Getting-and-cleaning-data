@@ -1,4 +1,4 @@
-Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 
 English description
 
@@ -15,6 +15,7 @@ The following instructions were applied to the data set through the run_analysis
 In addition, the repository contains the file Segundo.txt, which is the result of step 5. Finally, there is the file CodeBook.md that describes the variables, the data and the transformations carried out on them to achieve the expected results.
 
 Spanish description
+
 Este repositorio alberga el proyecto del curso Getting and Cleaning Data de la especialización en Ciencia de Datos de la Universidad John Hopkins en Coursera. Se basa en los datos recolectados por los acelerómetros de los celulares Samsung Galaxy S, los cuales pueden descargarse del siguiente <a href = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"> enlace </a>
 
 Al conjunto de datos le fueron aplicadas las siguientes instrucciones a través del script run_analysis.R
