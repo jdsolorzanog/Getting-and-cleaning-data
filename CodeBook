@@ -1,0 +1,32 @@
+# Code Book
+
+<strong> Spanish version </strong>
+
+El script run_analysis.R inicia preparando los datos para su transformación en base a los siguientes pasos:
+
+1. Descargar el conjunto de datos: Apoyándose en los comandos file y download.file
+2. Asignación de variables a los datos: 
+  - features <- features.txt: Corresponden a las señales sin procesar de 3 ejes del acelerómetro y giroscopio tAcc-XYZ y tGyro-XYZ.
+  - activities <- activities.txt: Lista de actividades realizadas
+  - subject_test <- test/subject_test.txt: Contiene los datos de los sujetos del grupo de prueba
+  - x_test <- test/X_test.txt: Recopila los datos de prueba de las características registradas
+  - y_test <- test/y_test.txt: Contiene los nombres de las actividades de los datos de prueba
+  - subject_train <- test/subject_train.txt: Contiene los datos de los sujetos del grupo de entrenamiento
+  - x_train <- test/X_train.txt: Contiene las características registradas en los datos de entrenamiento
+  - y_train <- test/Y_train.txt: Contiene los nombres de las actividades para los datos de entrenamiento
+  
+  
+<strong> English version </strong>
+
+The run_analysis.R script starts preparing the data for transformation according to the following steps
+
+1. Download the dataset: Using the commands file and download.file
+2. Assigning variables to data: 
+  - features <- features.txt: correspond to the raw 3-axis signals of the tAcc-XYZ and tGyro-XYZ accelerometer and gyro.
+  - activities <- activities.txt: list of activities performed
+  - subject_test <- test/subject_test.txt: Contains the data of the test group subjects
+  - x_test <- test/X_test.txt: saves the test data of the registered characteristics
+  - y_test <- test/y_test.txt: contains test data of activities’ code labels
+  - subject_train <- test/subject_train.txt: contains the data of the subjects of the training group
+  - x_train <- test/X_train.txt: contains the characteristics recorded in the training data
+  - y_train <- test/Y_train.txt: contains the names of the activities for the training data
