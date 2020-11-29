@@ -38,8 +38,8 @@ El script run_analysis.R inicia preparando los datos para su transformación en 
         Second <- Tidy %>% group_by(subject,activity) %>%
         summarise_all(funs(mean))
         write.table(Second, "Segundo.txt", row.name=FALSE)
-  
-  
+        
+<br>  
 <strong> English version </strong>
 
 The run_analysis.R script starts preparing the data for transformation according to the following steps
